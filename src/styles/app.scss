@@ -1,0 +1,19 @@
+:global {
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		font: 14/1.5 Helvetica, Arial, sans-serif;
+		margin: 0;
+		background: orange;
+	}
+}
+
+.app {
+	padding: 50px;
+	max-width: 90%;
+	margin: auto;
+}
+.section_title {
+	color: lightgray;
+}

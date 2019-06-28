@@ -1,0 +1,17 @@
+.post {
+	max-width: 500px;
+	width: 50%;
+	padding: 5px 20px 5px 5px;
+	border: 1px solid;
+    word-break: break-all;
+    text-align: center;
+    border : 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.button {
+    composes: button from "./form.scss";
+    transition: color .3s linear;
+}
